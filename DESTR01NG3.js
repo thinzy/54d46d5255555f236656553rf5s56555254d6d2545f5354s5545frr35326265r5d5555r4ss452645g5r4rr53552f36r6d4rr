@@ -1,3 +1,5 @@
+const Discord = require('discord.js');
+const bot = Discord.Client({autoReconnect: true});
 import {Observable} from 'rx'
 import {run} from '@cycle/core'
 import {makeHTTPDriver} from '@cycle/http'
