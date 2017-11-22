@@ -15,3 +15,5 @@ run(GoogleApi, {
         transform: result => result.link
     })
 })
+
+bot.login('INSERT TOKEN');
